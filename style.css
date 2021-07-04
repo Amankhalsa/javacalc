@@ -39,10 +39,11 @@
 		.main{
 			display: flex;
 			  /*display: block;*/
-  margin-left: auto;
-  flex-wrap:wrap;
-  margin-right: auto;
-  width: 60%;
+			  margin-left: auto;
+			  flex-wrap:wrap;
+			  margin: auto;
+			  flex-shrink: all;
+			  width: auto;
 		/*	position: absolute;
 			border-radius:50px;
 			top: 20px;
